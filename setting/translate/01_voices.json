@@ -5,7 +5,7 @@
     "date": "2022-04-13",
     "translate": {
       "zh-CN": "超市我",
-      "en-US": "Haoye"
+      "en-US": "chaoshiwo"
     },
     "usePicture": {
       "zh-CN": "超市我.jpg",
@@ -19,16 +19,35 @@
     }
   },
   {
-    "name": "超市我2",
-    "path": "超市我.wav",
+    "name": "新舰长muamua",
+    "path": "新舰长muamua.wav",
     "date": "2022-04-13",
     "translate": {
-      "zh-CN": "超市我2",
-      "en-US": "Haoye"
+      "zh-CN": "新舰长muamua",
+      "en-US": "new jianzhang"
     },
     "usePicture": {
-      "zh-CN": "超市我.jpg",
-      "en-US": "超市我.jpg"
+      "zh-CN": "新舰长muamua.jpg",
+      "en-US": "新舰长muamua.jpg"
+    },
+    "category": "名言2",
+    "mark": {
+      "title": "猫雷直播间",
+      "time": "00:00",
+      "url": "https://space.bilibili.com/697091119/dynamic"
+    }
+  },
+  {
+    "name": "恰米佬",
+    "path": "恰米佬.wav",
+    "date": "2022-04-13",
+    "translate": {
+      "zh-CN": "恰米佬",
+      "en-US": "qiamilao"
+    },
+    "usePicture": {
+      "zh-CN": "恰米佬.jpg",
+      "en-US": "恰米佬.jpg"
     },
     "category": "名言2",
     "mark": {
