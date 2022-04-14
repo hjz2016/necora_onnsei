@@ -2,8 +2,15 @@
   {
     "name": "名言",
     "translate": {
-      "zh-CN": "猫猫名言~",
-      "en-US": "Witticisms~"
+      "zh-CN": "猫雷NyaRu",
+      "en-US": "NecoraNyaRu~"
+    }
+  },
+  {
+    "name": "名言2",
+    "translate": {
+      "zh-CN": "猫雷NyaRu",
+      "en-US": "NecoraNyaRu~"
     }
   }
 ]

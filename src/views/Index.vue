@@ -115,6 +115,9 @@ a
 .index
   margin 0 auto
   width 90%
+  // background transparent url(../assets/image/necora-bg.png) no-repeat
+  // background-position center top
+  // background-size 80px
 
   .content
     display flex

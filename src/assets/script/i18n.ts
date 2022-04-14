@@ -12,7 +12,7 @@ const NAME = Setting['name'] || {}
 CN.info = {
   ...CN.info,
   ...NAME['CN'] || {
-    title: '语音按钮',
+    title: '猫雷语音按钮',
     fullName: ''
   }
 }

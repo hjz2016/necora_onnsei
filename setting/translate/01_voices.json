@@ -1,21 +1,40 @@
 [
   {
-    "name": "好耶",
-    "path": "好耶.mp3",
-    "date": "2020-11-25",
+    "name": "超市我",
+    "path": "超市我.wav",
+    "date": "2022-04-13",
     "translate": {
-      "zh-CN": "好耶",
+      "zh-CN": "超市我",
       "en-US": "Haoye"
     },
     "usePicture": {
-      "zh-CN": "好耶.jpg",
-      "en-US": "好耶.jpg"
+      "zh-CN": "超市我.jpg",
+      "en-US": "超市我.jpg"
     },
     "category": "名言",
     "mark": {
-      "title": "【Hiiro Record】11.24 Tue.读棉花糖",
-      "time": "59:33~59:34",
-      "url": "https://www.bilibili.com/video/BV1gy4y1q7cC"
+      "title": "猫雷直播间",
+      "time": "00:00",
+      "url": "https://space.bilibili.com/697091119/dynamic"
+    }
+  },
+  {
+    "name": "超市我2",
+    "path": "超市我.wav",
+    "date": "2022-04-13",
+    "translate": {
+      "zh-CN": "超市我2",
+      "en-US": "Haoye"
+    },
+    "usePicture": {
+      "zh-CN": "超市我.jpg",
+      "en-US": "超市我.jpg"
+    },
+    "category": "名言2",
+    "mark": {
+      "title": "猫雷直播间",
+      "time": "00:00",
+      "url": "https://space.bilibili.com/697091119/dynamic"
     }
   }
 ]

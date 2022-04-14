@@ -170,6 +170,7 @@ defineExpose({ progress, lowlight, highlight })
       line-height 20px
       padding 5px 15px
       word-break break-all
+      color $btn-font-color;
 
 @keyframes highlight-fade
   from
