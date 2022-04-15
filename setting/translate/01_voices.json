@@ -1,24 +1,5 @@
 [
   {
-    "name": "超市果",
-    "path": "超市果.wav",
-    "date": "2022-04-13",
-    "translate": {
-      "zh-CN": "超市果",
-      "en-US": "chaoshiwo"
-    },
-    "usePicture": {
-      "zh-CN": "超市果.jpg",
-      "en-US": "超市果.jpg"
-    },
-    "category": "名言",
-    "mark": {
-      "title": "猫雷直播间",
-      "time": "00:00",
-      "url": "https://space.bilibili.com/697091119/dynamic"
-    }
-  },
-  {
     "name": "新舰长muamua",
     "path": "新舰长muamua.wav",
     "date": "2022-04-13",
