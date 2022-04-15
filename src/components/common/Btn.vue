@@ -21,7 +21,7 @@
 <script lang="ts" setup>
 import { nekoMimi } from '@/store/setting'
 
-defineProps({
+const props = defineProps({
   name: String,
   url: String,
   color: {
@@ -37,6 +37,8 @@ defineProps({
     default: false
   }
 })
+
+console.log(props.url, 'props')
 </script>
 
 <style lang="stylus" scoped>

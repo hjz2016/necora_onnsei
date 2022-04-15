@@ -14,21 +14,26 @@
   "readme": "",
   "header": {
     "icon": "img/logo.svg",
-    "youtube": "",
-    "twitter": "",
-    "bilibili": ""
+    "youtube": "https://www.youtube.com/channel/UCbXXdwEVbVbXhosYKn0am6A",
+    "twitter": "https://twitter.com/NecoraNyaru",
+    "bilibili": "https://space.bilibili.com/697091119"
   },
   "related": [],
   "link": [
     {
       "name": "Hiiro按钮",
-      "url": "https: //hiiro.club/",
+      "url": "https://hiiro.club/",
       "background": "#F5C1BB"
     },
     {
       "name": "七奈按钮",
-      "url": "https: //kaguranana.moe/",
+      "url": "https://kaguranana.moe/",
       "background": "#c4afd0"
+    },
+    {
+      "name": "塔菲按钮",
+      "url": "https://acetaffy.club/",
+      "background": "#fbadc4"
     }
   ],
   "footer": {

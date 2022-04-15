@@ -66,6 +66,8 @@ const RELATED: FriendlyLink[] = Setting['related'] || []
 // 友链列表
 const LINK: FriendlyLink[] = Setting['link'] || []
 
+console.log(LINK, 'LINK')
+
 const setAnimation = (flag: boolean, voice: Ref<HTMLElement>) => {
   if (!voice.value) return flag
   if (flag) {

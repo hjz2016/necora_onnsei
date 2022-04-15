@@ -1,15 +1,15 @@
 [
   {
-    "name": "超市我",
-    "path": "超市我.wav",
+    "name": "超市果",
+    "path": "超市果.wav",
     "date": "2022-04-13",
     "translate": {
-      "zh-CN": "超市我",
+      "zh-CN": "超市果",
       "en-US": "chaoshiwo"
     },
     "usePicture": {
-      "zh-CN": "超市我.jpg",
-      "en-US": "超市我.jpg"
+      "zh-CN": "超市果.jpg",
+      "en-US": "超市果.jpg"
     },
     "category": "名言",
     "mark": {
