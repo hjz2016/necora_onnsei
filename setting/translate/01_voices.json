@@ -95,6 +95,101 @@
     }
   },
   {
+    "name": "喵喵露1",
+    "path": "喵喵露1.wav",
+    "date": "2022-04-13",
+    "translate": {
+      "zh-CN": "喵喵露1",
+      "en-US": "chaoshiwo"
+    },
+    "usePicture": {
+      "zh-CN": "喵喵露1.jpg",
+      "en-US": "喵喵露1.jpg"
+    },
+    "category": "名言",
+    "mark": {
+      "title": "猫雷直播间",
+      "time": "00:00",
+      "url": "https://space.bilibili.com/697091119/dynamic"
+    }
+  },
+  {
+    "name": "喵喵露2",
+    "path": "喵喵露2.wav",
+    "date": "2022-04-13",
+    "translate": {
+      "zh-CN": "喵喵露2",
+      "en-US": "chaoshiwo"
+    },
+    "usePicture": {
+      "zh-CN": "喵喵露2.jpg",
+      "en-US": "喵喵露2.jpg"
+    },
+    "category": "名言",
+    "mark": {
+      "title": "猫雷直播间",
+      "time": "00:00",
+      "url": "https://space.bilibili.com/697091119/dynamic"
+    }
+  },
+  {
+    "name": "喵喵露3",
+    "path": "喵喵露3.wav",
+    "date": "2022-04-13",
+    "translate": {
+      "zh-CN": "喵喵露3",
+      "en-US": "chaoshiwo"
+    },
+    "usePicture": {
+      "zh-CN": "喵喵露3.jpg",
+      "en-US": "喵喵露3.jpg"
+    },
+    "category": "名言",
+    "mark": {
+      "title": "猫雷直播间",
+      "time": "00:00",
+      "url": "https://space.bilibili.com/697091119/dynamic"
+    }
+  },
+  {
+    "name": "猫雷皮卡",
+    "path": "猫雷皮卡.wav",
+    "date": "2022-04-13",
+    "translate": {
+      "zh-CN": "猫雷皮卡",
+      "en-US": "chaoshiwo"
+    },
+    "usePicture": {
+      "zh-CN": "猫雷皮卡.jpg",
+      "en-US": "猫雷皮卡.jpg"
+    },
+    "category": "名言",
+    "mark": {
+      "title": "猫雷直播间",
+      "time": "00:00",
+      "url": "https://space.bilibili.com/697091119/dynamic"
+    }
+  },
+  {
+    "name": "猫雷皮卡丘",
+    "path": "猫雷皮卡丘.wav",
+    "date": "2022-04-13",
+    "translate": {
+      "zh-CN": "猫雷皮卡丘",
+      "en-US": "chaoshiwo"
+    },
+    "usePicture": {
+      "zh-CN": "猫雷皮卡丘.jpg",
+      "en-US": "猫雷皮卡丘.jpg"
+    },
+    "category": "名言",
+    "mark": {
+      "title": "猫雷直播间",
+      "time": "00:00",
+      "url": "https://space.bilibili.com/697091119/dynamic"
+    }
+  },
+  {
     "name": "新舰长muamua",
     "path": "新舰长muamua.wav",
     "date": "2022-04-13",
