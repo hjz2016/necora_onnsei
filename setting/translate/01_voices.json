@@ -131,6 +131,63 @@
       "time": "00:00",
       "url": "https://space.bilibili.com/697091119/dynamic"
     }
+  },
+  {
+    "name": "大莱莱",
+    "path": "大莱莱.wav",
+    "date": "2022-04-13",
+    "translate": {
+      "zh-CN": "大莱莱",
+      "en-US": "qiamilao"
+    },
+    "usePicture": {
+      "zh-CN": "大莱莱.jpg",
+      "en-US": "大莱莱.jpg"
+    },
+    "category": "名言2",
+    "mark": {
+      "title": "猫雷直播间",
+      "time": "00:00",
+      "url": "https://space.bilibili.com/697091119/dynamic"
+    }
+  },
+  {
+    "name": "猫雷尿路",
+    "path": "猫雷尿路.wav",
+    "date": "2022-04-13",
+    "translate": {
+      "zh-CN": "猫雷尿路",
+      "en-US": "qiamilao"
+    },
+    "usePicture": {
+      "zh-CN": "猫雷尿路.jpg",
+      "en-US": "猫雷尿路.jpg"
+    },
+    "category": "名言2",
+    "mark": {
+      "title": "猫雷直播间",
+      "time": "00:00",
+      "url": "https://space.bilibili.com/697091119/dynamic"
+    }
+  },
+  {
+    "name": "谢谢大家来淦我",
+    "path": "谢谢大家来淦我.wav",
+    "date": "2022-04-13",
+    "translate": {
+      "zh-CN": "谢谢大家来淦我",
+      "en-US": "qiamilao"
+    },
+    "usePicture": {
+      "zh-CN": "谢谢大家来淦我.jpg",
+      "en-US": "谢谢大家来淦我.jpg"
+    },
+    "category": "名言2",
+    "mark": {
+      "title": "猫雷直播间",
+      "time": "00:00",
+      "url": "https://space.bilibili.com/697091119/dynamic"
+    }
   }
 ]
 
