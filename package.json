@@ -33,7 +33,8 @@
     "fs-extra": "^9.0.1",
     "stylus": "^0.55.0",
     "stylus-loader": "^6.1.0",
-    "typescript": "~4.5.5"
+    "typescript": "~4.5.5",
+    "vconsole": "^3.2.0"
   },
   "license": "GPL-3.0"
 }
