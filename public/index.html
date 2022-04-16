@@ -9,12 +9,14 @@
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title>necora-nyaru-buttons</title>
     <script>
-      var _hmt = _hmt || [];
+     var _hmt = _hmt || [];
+     window._hmt = _hmt;
       (function() {
         var hm = document.createElement("script");
         hm.src = "https://hm.baidu.com/hm.js?99ee845fb5d7068f0951e7f788d2a106";
         var s = document.getElementsByTagName("script")[0]; 
         s.parentNode.insertBefore(hm, s);
+        console.log(window._hmt,'_hmt')
       })();
     </script>      
   </head>

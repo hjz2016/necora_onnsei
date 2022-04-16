@@ -38,6 +38,63 @@
     }
   },
   {
+    "name": "ponpon",
+    "path": "ponpon.wav",
+    "date": "2022-04-13",
+    "translate": {
+      "zh-CN": "ponpon",
+      "en-US": "chaoshiwo"
+    },
+    "usePicture": {
+      "zh-CN": "ponpon.gif",
+      "en-US": "ponpon.gif"
+    },
+    "category": "名言",
+    "mark": {
+      "title": "猫雷直播间",
+      "time": "00:00",
+      "url": "https://space.bilibili.com/697091119/dynamic"
+    }
+  },
+  {
+    "name": "猫雷大哭",
+    "path": "猫雷大哭.wav",
+    "date": "2022-04-13",
+    "translate": {
+      "zh-CN": "猫雷大哭",
+      "en-US": "chaoshiwo"
+    },
+    "usePicture": {
+      "zh-CN": "猫雷大哭.jpg",
+      "en-US": "猫雷大哭.jpg"
+    },
+    "category": "名言",
+    "mark": {
+      "title": "猫雷直播间",
+      "time": "00:00",
+      "url": "https://space.bilibili.com/697091119/dynamic"
+    }
+  },
+  {
+    "name": "谢谢大傻喵之歌",
+    "path": "谢谢大傻喵之歌.wav",
+    "date": "2022-04-13",
+    "translate": {
+      "zh-CN": "谢谢大傻喵之歌",
+      "en-US": "chaoshiwo"
+    },
+    "usePicture": {
+      "zh-CN": "谢谢大傻喵之歌.jpg",
+      "en-US": "谢谢大傻喵之歌.jpg"
+    },
+    "category": "名言",
+    "mark": {
+      "title": "猫雷直播间",
+      "time": "00:00",
+      "url": "https://space.bilibili.com/697091119/dynamic"
+    }
+  },
+  {
     "name": "新舰长muamua",
     "path": "新舰长muamua.wav",
     "date": "2022-04-13",

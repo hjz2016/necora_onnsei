@@ -41,6 +41,8 @@ import githubPng from '@/assets/image/github-fill.png'
 import { INFO_I18N } from '@/assets/script/type'
 import IBtn from '@/components/common/IconBtn.vue'
 import { useI18n } from 'vue-i18n'
+// 获取实例
+import { getCurrentInstance } from 'vue'
 
 const FOOTER: {
   author?: {
@@ -52,7 +54,7 @@ const FOOTER: {
 } = Setting['footer']
 
 const { t } = useI18n()
-
+console.log(window._hmt, '_hmt2')
 const author = FOOTER && FOOTER.author ? FOOTER.author : []
 const info = FOOTER && FOOTER.info ? FOOTER.info : []
 const githubUrl = FOOTER && FOOTER.githubUrl ? FOOTER.githubUrl : undefined
