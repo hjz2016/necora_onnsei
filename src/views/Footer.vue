@@ -3,7 +3,7 @@
     <div class="footer">
       <div>
         <div class="author">
-          <div>©2020</div>
+          <div>©2022</div>
           <template v-for="(item, index) in author" :key="index">
             <a style="margin-left: 5px" v-if="index > 0">&</a>
             <a style="margin-left: 5px" :href="item.url" target="_blank">{{ item.name }}</a>
@@ -14,6 +14,10 @@
             <div v-html="item"></div>
           </template>
           <img style="margin: 5px 5px 0px -2px" alt="GitHub Repo stars" :src="lastUpdate" />
+        </div>
+        <div>
+          累计访问量
+          <a href="#">{{pv_count}}</a>
         </div>
         <div>
           Powered by
@@ -42,7 +46,10 @@ import { INFO_I18N } from '@/assets/script/type'
 import IBtn from '@/components/common/IconBtn.vue'
 import { useI18n } from 'vue-i18n'
 // 获取实例
-import { getCurrentInstance } from 'vue'
+import { getCurrentInstance ,ref} from 'vue'
+// 获取接口
+import _APIS from "@/api";
+// import _public from "@/src/public/public";
 
 const FOOTER: {
   author?: {
@@ -52,7 +59,7 @@ const FOOTER: {
   info?: string[];
   githubUrl?: string;
 } = Setting['footer']
-
+const pv_count = ref(0);
 const { t } = useI18n()
 console.log(window._hmt, '_hmt2')
 const author = FOOTER && FOOTER.author ? FOOTER.author : []
@@ -60,6 +67,21 @@ const info = FOOTER && FOOTER.info ? FOOTER.info : []
 const githubUrl = FOOTER && FOOTER.githubUrl ? FOOTER.githubUrl : undefined
 
 const lastUpdate = `https://img.shields.io/date/${(process.env.VUE_APP_LAST_UPDATE.substring(0, process.env.VUE_APP_LAST_UPDATE.length - 3))}?label=last%20update&style=social`
+
+let param = {
+  access_token: '121.cdb2e9ad761fe85985af85ce79ba9bd1.YC7QkSgvvtsvZTMq5reZYGXrwHku2smM1BRNid8.8yWupQ',
+  site_id: 17860040,
+  method: 'overview/getCommonTrackRpt',
+  start_date: 20220415,
+  end_date: 20250415
+}
+  // 获取接口数据
+  _APIS.getData(param)
+  .then(res=>{
+     console.log(res,'res')
+  },err=>{
+      // _public.errorToast(this,err)
+  })
 </script>
 
 <style lang="stylus" scoped>

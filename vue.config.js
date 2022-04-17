@@ -9,6 +9,7 @@ process.env.VUE_APP_LAST_UPDATE = Date.now()
  *  @type { Options }
  */
 module.exports = {
+  lintOnSave: false,
   productionSourceMap: false,
   css: {
     loaderOptions: {
