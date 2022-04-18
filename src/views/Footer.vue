@@ -79,6 +79,11 @@ let param = {
   _APIS.getData(param)
   .then(res=>{
      console.log(res,'res')
+     let data = res.data
+     let result = data.result
+     let visitType = result.visitType
+
+     pv_count.value = visitType.newVisitor.pv_count + visitType.oldVisitor.pv_count
   },err=>{
       // _public.errorToast(this,err)
   })
