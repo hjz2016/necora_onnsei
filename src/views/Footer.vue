@@ -76,7 +76,7 @@ let param = {
   end_date: 20250415
 }
   // 获取接口数据
-  _APIS.getData(param)
+  _APIS.auth_getData(param)
   .then(res=>{
      console.log(res,'res')
   },err=>{
