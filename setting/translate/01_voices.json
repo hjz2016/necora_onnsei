@@ -190,6 +190,44 @@
     }
   },
   {
+    "name": "看起来好好次",
+    "path": "看起来好好次.wav",
+    "date": "2022-04-13",
+    "translate": {
+      "zh-CN": "看起来好好次",
+      "en-US": "まだかな"
+    },
+    "usePicture": {
+      "zh-CN": "看起来好好次.gif",
+      "en-US": "看起来好好次.gif"
+    },
+    "category": "名言",
+    "mark": {
+      "title": "猫雷直播间",
+      "time": "00:00",
+      "url": "https://space.bilibili.com/697091119/dynamic"
+    }
+  },
+  {
+    "name": "还没好吗？",
+    "path": "还没好吗？.wav",
+    "date": "2022-04-13",
+    "translate": {
+      "zh-CN": "还没好吗？",
+      "en-US": "まだかな"
+    },
+    "usePicture": {
+      "zh-CN": "还没好吗？.gif",
+      "en-US": "还没好吗？.gif"
+    },
+    "category": "名言",
+    "mark": {
+      "title": "猫雷直播间",
+      "time": "00:00",
+      "url": "https://space.bilibili.com/697091119/dynamic"
+    }
+  },
+  {
     "name": "新舰长muamua",
     "path": "新舰长muamua.wav",
     "date": "2022-04-13",
@@ -276,6 +314,63 @@
     "usePicture": {
       "zh-CN": "谢谢大家来淦我.jpg",
       "en-US": "谢谢大家来淦我.jpg"
+    },
+    "category": "名言2",
+    "mark": {
+      "title": "猫雷直播间",
+      "time": "00:00",
+      "url": "https://space.bilibili.com/697091119/dynamic"
+    }
+  },
+  {
+    "name": "哈♥♥♥",
+    "path": "哈♥♥♥.wav",
+    "date": "2022-04-13",
+    "translate": {
+      "zh-CN": "哈♥♥♥",
+      "en-US": "はぁぁぁぁ♥♥♥"
+    },
+    "usePicture": {
+      "zh-CN": "哈♥♥♥.jpg",
+      "en-US": "哈♥♥♥.jpg"
+    },
+    "category": "名言2",
+    "mark": {
+      "title": "猫雷直播间",
+      "time": "00:00",
+      "url": "https://space.bilibili.com/697091119/dynamic"
+    }
+  },
+  {
+    "name": "嘿嘿嘿汉堡",
+    "path": "嘿嘿嘿汉堡.wav",
+    "date": "2022-04-13",
+    "translate": {
+      "zh-CN": "嘿嘿嘿汉堡",
+      "en-US": "ヘヘヘイてりたま"
+    },
+    "usePicture": {
+      "zh-CN": "嘿嘿嘿汉堡.jpg",
+      "en-US": "嘿嘿嘿汉堡.jpg"
+    },
+    "category": "名言2",
+    "mark": {
+      "title": "猫雷直播间",
+      "time": "00:00",
+      "url": "https://space.bilibili.com/697091119/dynamic"
+    }
+  },
+  {
+    "name": "贴贴",
+    "path": "贴贴.wav",
+    "date": "2022-04-13",
+    "translate": {
+      "zh-CN": "贴贴",
+      "en-US": "てぇてぇ"
+    },
+    "usePicture": {
+      "zh-CN": "贴贴.jpg",
+      "en-US": "贴贴.jpg"
     },
     "category": "名言2",
     "mark": {
