@@ -2,6 +2,7 @@ import { PlaySetting } from '@/assets/script/type'
 import { reactive, ref } from 'vue'
 import Setting from '@/../setting/setting.json'
 
+// ?? 左侧为null或undefined时返回右侧
 const i18n = ref(Setting['i18n'] ?? true)
 const nekoMimi = ref(Setting['neko_mimi'] ?? true)
 

@@ -245,3 +245,13 @@ export interface FriendlyLink {
   background?: string;
   color?: string;
 }
+
+export interface TestA {
+  name: string;
+  url: string;
+  background?: string;
+  color?: string; // ?:可有可无 有的话必须是string
+}
+
+
+

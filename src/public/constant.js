@@ -1,7 +1,7 @@
 // 全局变量
 const constant = {
   // 程序环境(app|qas|dev)
-  appenv: 'app',
+  appenv: 'dev',
   // 系统id
   systemId: 45,
   // 页面文件版本(更新前取日期)

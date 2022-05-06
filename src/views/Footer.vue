@@ -46,7 +46,7 @@ import { INFO_I18N } from '@/assets/script/type'
 import IBtn from '@/components/common/IconBtn.vue'
 import { useI18n } from 'vue-i18n'
 // 获取实例
-import { getCurrentInstance ,ref} from 'vue'
+import { getCurrentInstance ,ref ,watchEffect ,useAttrs } from 'vue'
 // 获取接口
 import _APIS from "@/api";
 // import _public from "@/src/public/public";
@@ -87,6 +87,14 @@ let param = {
   },err=>{
       // _public.errorToast(this,err)
   })
+
+  // watchEffect(onInvalidate =>{ console.log(onInvalidate,'onInvalidate') })
+  /* const name = ref('沐华')
+  watch(name, (newValue, oldValue)=>{ ... }, {immediate:true, deep:true}) */
+
+  /* const boy = reactive({ age:18 })
+  watch(()=>boy.age, (newValue, oldValue)=>{ ... }) */
+  console.log(this,'this')
 </script>
 
 <style lang="stylus" scoped>

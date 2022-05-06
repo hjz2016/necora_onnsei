@@ -37,7 +37,7 @@
 </template>
 
 <script lang="ts" setup>
-import { reactive } from 'vue'
+import { reactive, useAttrs } from 'vue'
 import { useI18n } from 'vue-i18n'
 import Card from '../common/Card.vue'
 import VBtn from '../common/VoiceBtn.vue'
@@ -59,6 +59,8 @@ const {
 
 useSearch(btnList)
 initListen(btnList)
+
+
 </script>
 
 <style lang="stylus" scoped>

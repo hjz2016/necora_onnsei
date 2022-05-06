@@ -31,7 +31,7 @@
 
       <transition name="search">
         <div v-if="isWideScreen" style="overflow: hidden">
-          <Search />
+          <Search :testProps='testProps' :msgk='msgk'/>
         </div>
       </transition>
       <div class="btn" :title="t(INFO_I18N.lang)" @click="changeLang" v-if="i18n">
@@ -63,7 +63,7 @@ import IBtn from '@/components/common/IconBtn.vue'
 import Search from '@/components/Search/Search.vue'
 import { searchData } from '@/store/data'
 import { i18n, isShowSearch, isWideScreen, playSetting } from '@/store/setting'
-import { computed, onMounted, ref, Ref } from 'vue'
+import { computed, onMounted, ref, Ref, reactive } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 const HEADER: {
@@ -154,6 +154,9 @@ const changeHide = () => {
 const isShowPointer = computed(() => {
   return Number(t(INFO_I18N.hideVoiceTotal)) > Number(t(INFO_I18N.voiceTotal))
 })
+
+const testProps = reactive({test1:1});
+const msgk = ref('1');
 
 // 初次加载时获取localStorage的语言设定
 onMounted(() => {

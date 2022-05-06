@@ -10,6 +10,8 @@
 import Card from '@/components/common/Card.vue'
 import { isShowSearch, isWideScreen } from '@/store/setting'
 import Search from './Search.vue'
+import { reactive, ref } from 'vue'
+
 
 </script>
 

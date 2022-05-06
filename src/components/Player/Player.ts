@@ -1,6 +1,6 @@
 import Setting from '@/../setting/setting.json'
 import mitt from '@/assets/script/mitt'
-import { EVENT, INFO_I18N, Mark, Player, PlayerList, QUERY, SearchData, Translate, Voices, VoicesCategory, VoicesItem, VoicesOrigin } from '@/assets/script/type'
+import { EVENT, INFO_I18N, Mark, Player, PlayerList, QUERY, SearchData, Translate, Voices, VoicesCategory, VoicesItem, VoicesOrigin, TestA } from '@/assets/script/type'
 import { getCategory, getRandomInt } from '@/assets/script/utils'
 import { infoDate, playTimes, playTimesNow, searchData, voiceList, voices } from '@/store/data'
 import { isShowSearch, playSetting } from '@/store/setting'
@@ -10,7 +10,12 @@ import { Router, useRouter } from 'vue-router'
 
 const MEDIA = Setting['mediaSession']
 const CDN = Setting['CDN']
-
+const TestA:TestA = {
+  name: 'string;1',
+  url: 'string;2',
+  background: 'string;3',
+}
+console.log(TestA,'TestA')
 const useSearch = (btnList: { [name: string]: any }) => {
   const router = useRouter()
 
@@ -56,6 +61,7 @@ const useSearch = (btnList: { [name: string]: any }) => {
           searchData.index++
           const scrollPos = document.documentElement.scrollTop + btnList[i].$el.getBoundingClientRect().top - 200
           highlight.value = i
+          // 滚动
           window.scrollTo({ top: scrollPos, behavior: 'smooth' })
           break
         }
@@ -64,6 +70,8 @@ const useSearch = (btnList: { [name: string]: any }) => {
   })
 
   initRouter(searchData, router)
+
+  
 }
 
 const initRouter = (searchData: SearchData, router: Router) => {
@@ -74,6 +82,8 @@ const initRouter = (searchData: SearchData, router: Router) => {
           if (searchData.list.length > 0) {
             mitt.emit(EVENT.autoScroll)
           }
+
+          
         }, 500)
       })
     }
@@ -130,6 +140,9 @@ const createPlayer = (btnList: { [name: string]: any }) => {
   }
 
   const playerList: PlayerList = new Map()
+
+  
+  
 
   /**
    * 播放语音
@@ -225,6 +238,8 @@ const createPlayer = (btnList: { [name: string]: any }) => {
         }
       }
     }
+
+    console.log(playerList,'playerList')
   }
 
   mitt.on(EVENT.randomPlay, () => {

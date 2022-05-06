@@ -63,8 +63,16 @@ import { EVENT } from '@/assets/script/type'
 import { getCategory } from '@/assets/script/utils'
 import { searchData, voiceList } from '@/store/data'
 import { isShowSearch, playSetting } from '@/store/setting'
-import { computed, watch } from 'vue'
+import { computed, watch, useAttrs } from 'vue'
 import { useI18n } from 'vue-i18n'
+
+const props1 = defineProps({
+    testProps:Object,
+    msgk: String
+})
+
+const attrs = useAttrs()
+console.log(attrs.testProps,props1.testProps,'获取父组件传入的属性useAttrs')
 
 const { t, te, locale } = useI18n()
 
@@ -122,6 +130,9 @@ mitt.on(EVENT.search, (name?: string) => {
 const width = computed(() => searchData.value ? 'calc(100% - 30px)' : '100%')
 const nextBtnWidth = computed(() => searchData.value ? '30px' : '0')
 const borderRadius = computed(() => searchData.value ? '' : '0 10px 10px 0')
+
+
+
 </script>
 
 <style lang="stylus" scoped>
